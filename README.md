@@ -1,4 +1,5 @@
 # 巡隐WEBSHELL扫描软件<br>
+支持 PHP、JSP、ASP、Python 类型 WebShell 检测。<br>
 windows 64位选择xy-windows-amd64.zip<br>
 linux 64位选择 xy-linux-amd64<br>
 mac 64位选择 xy-darwin-amd64<br>
