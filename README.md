@@ -16,7 +16,7 @@ mac 64位选择 xy-darwin-amd64<br>
 示例:  <br>
   ./xy-linux-amd64 -v --show-score --html-report -o report.txt --no-threat /var/www  <br>
   xy-amd64.exe -v --show-score --html-report -o report.txt --no-threat D:\webshell  <br>
-`)
+
 
 说明<br>
 1）windows版采用了加载外部数据库db，因此需要将db目录与主程序放在同一目录中<br>
