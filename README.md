@@ -1,7 +1,7 @@
-巡隐WEBSHELL扫描软件<br>
-windows 64位选择xy-windows-amd64.zip<br>
-linux 64位选择 xy-linux-amd64<br>
-mac 64位选择 xy-darwin-amd64<br>
+巡隐WEBSHELL扫描软件  <br>
+windows 64位选择xy-windows-amd64.zip  <br>
+linux 64位选择 xy-linux-amd64  <br>
+mac 64位选择 xy-darwin-amd64  <br>
 
 使用方法: webshell-detector [选项] <扫描路径>  <br>
 
