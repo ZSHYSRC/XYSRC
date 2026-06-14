@@ -17,6 +17,24 @@ mac 64位选择 xy-darwin-amd64<br>
   ./xy-linux-amd64 -v --show-score --html-report -o report.txt --no-threat /var/www  <br>
   xy-amd64.exe -v --show-score --html-report -o report.txt --no-threat D:\webshell  <br>
 
+## windows扫描示意图
+<p align="center">
+  <img src="windows%E6%89%AB%E6%8F%8F%E7%A4%BA%E6%84%8F%E5%9B%BE1.png" width="700" alt="windows拓扑示意图1">
+  <br><br>
+  <img src="windows%E6%89%AB%E6%8F%8F%E7%A4%BA%E6%84%8F%E5%9B%BE2.png" width="700" alt="windows拓扑示意图2">
+  <br><br>
+  <img src="windows%E6%89%AB%E6%8F%8F%E7%A4%BA%E6%84%8F%E5%9B%BE3.png" width="700" alt="windows拓扑示意图3">
+</p>
+
+---
+
+## linux扫描示意图
+<p align="center">
+  <img src="linux%E6%89%AB%E6%8F%8F%E7%A4%BA%E6%84%8F%E5%9B%BE1.png" width="700" alt="linux拓扑示意图1">
+  <br><br>
+  <img src="linux%E6%89%AB%E6%8F%8F%E7%A4%BA%E6%84%8F%E5%9B%BE2.png" width="700" alt="linux拓扑示意图2">
+</p>
+
 # 说明<br>
 1）windows版采用了加载外部数据库db，因此需要将db目录与主程序放在同一目录中<br>
 2）linux版和mac 采用了嵌入数据库db，直接运行主程序即可；由于是嵌入数据库db，因此执行时会产生一个临时文件，执行完成后会自动将生成的临时文件删除，因此如果安装了杀毒软件可能会产生安全告警。
