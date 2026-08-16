@@ -1,4 +1,5 @@
 # 巡隐WEBSHELL扫描软件<br>
+支持检测语言的脚本包括PHP、ASP、JSP、Others（包括Python/Perl/CGI/ColdFusion等）<br>
 windows 64位选择xy-Windows.zip<br>
 linux 64位选择 xy-Linux.zip<br>
 mac 64位选择 xy-macOS.zip<br>
