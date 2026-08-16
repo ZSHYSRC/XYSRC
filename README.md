@@ -1,22 +1,28 @@
 # 巡隐WEBSHELL扫描软件<br>
-支持 PHP、JSP、ASP、Python 类型 WebShell 检测。<br>
-windows 64位选择xy-windows-amd64.zip<br>
-linux 64位选择 xy-linux-amd64<br>
-mac 64位选择 xy-darwin-amd64<br>
+windows 64位选择xy-Windows.zip<br>
+linux 64位选择 xy-Linux.zip<br>
+mac 64位选择 xy-macOS.zip<br>
 
-# 使用方法: webshell-detector [选项] <扫描路径>  <br>
+# 使用方法:./xy-linux-amd64 [选项] <扫描路径>  <br>
 
 选项:  <br>
-  -o, --output FILE       将报告输出到文件  <br>
-  -v, --verbose           详细输出模式  <br>
-  -h, --help              显示此帮助信息  <br>
-  --generic-rules         启用通用规则检测  <br>
-  --html-report           生成HTML报告  <br>
-  --no-threat             输出无威胁报告到单独文件  <br>
+  -h                          显示此帮助信息<br>
+  -v                          详细输出模式<br>
+  -r                           递归扫描子目录（默认启用，使用 -r=false 禁用）<br>
+  -d FILE                   指定数据库文件<br>
+  -o DIR                    指定输出目录(默认: 程序所在目录)<br>
+  -name NAME         指定输出文件名(同时作用于--txt/--html/--unthreat)<br>
 
 示例:  <br>
-  ./xy-linux-amd64 -v --show-score --html-report -o report.txt --no-threat /var/www  <br>
-  xy-amd64.exe -v --show-score --html-report -o report.txt --no-threat D:\webshell  <br>
+  国际惯例使用前先赋权，例如 chmod 777 xy-linux-amd64<br>
+  Linux版使用命令示例：<br>
+  ./xy-linux-amd64 -v /var/www                    (生成详细结果的txt报告)<br>
+  ./xy-linux-amd64 --html --txt /var/www     (生成HTML报告和txt报告)<br>
+
+
+  Windows命令行版使用命令示例：<br>
+  xy-amd64.exe D:\webshell		       (生成report.txt、report.html)<br>
+  xy-amd64.exe -v D:\webshell                       (生成详细结果的report.txt、report.html)<br>
 
 ## windows扫描示意图
 <p align="center">
