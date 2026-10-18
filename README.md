@@ -1,12 +1,10 @@
-v1.0.2版本后增加了.xhtml扩展名文件识别，并更新了规则库。<br>
-此次更新并未更新整体代码结构、规则库结构，主要是通过删除规则库中冗余规则策略、增加规则库中识别webshell规则，实测扫描速度已能够达到355个文件/秒。<br>
+实测扫描速度已能够达到300+个文件/秒。<br>
 误报率和漏报率已得到优化，在完成软件更新后，让多个AI生成 免杀的webshell，然后进行查杀，已都能够识别。也收集了一些常见的webshell进行测试，都能够识别。<br>
 
 # 巡隐WEBSHELL扫描软件<br>
 支持检测语言的脚本包括PHP、ASP、JSP、Others（包括Python/Perl/CGI/ColdFusion等）<br>
-windows 64位选择xy-Windows.zip<br>
-linux 64位选择 xy-Linux.zip<br>
-mac 64位选择 xy-macOS.zip<br>
+运行平台：支持Windows、Linux、macOS（纯 Go 实现，跨平台，支持 amd64 / arm64 等主流架构）。<br>
+如不确定操作系统使用了什么架构，建议选择amd64，因为arm64架构很少需要使用到。<br>
 
 # 使用方法:./xy-linux-amd64 [选项] <扫描路径>  <br>
 
